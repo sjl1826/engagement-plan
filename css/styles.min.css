@@ -408,8 +408,8 @@ section .header {
 
 .hero {
     min-height: 500px;
-    background-color: cornflowerblue;
-    /* background: url("../img/hero-min.jpg") center center; */
+    background-color: grey;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../img/hero-min.jpg") center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
