@@ -425,9 +425,9 @@ section .header {
 .left-image,
 .right-image {
     position: absolute;
-        width: 40%;
+        width: 30%;
         /* Adjust the width as needed */
-        height: 60%;
+        height: 50%;
         /* Adjust the height as needed */
         background-size: cover;
         z-index: 1;
