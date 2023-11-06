@@ -421,7 +421,7 @@ section .header {
 .left-image,
 .right-image {
     position: absolute;
-        width: 20%;
+        width: 30%;
         /* Adjust the width as needed */
         height: 40%;
         /* Adjust the height as needed */
