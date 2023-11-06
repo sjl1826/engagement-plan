@@ -434,18 +434,12 @@ section .header {
 }
 
 .left-image {
-    left: 2%;
-        top: 40%;
     background-image: url("../img/left-image.jpg");
-    transform: rotate(-15deg);
     background-position: center center;
 }
 
 .right-image {
-    right: 2%;
-        bottom: 30%;
     background-image: url("../img/right-image.jpg");
-    transform: rotate(15deg);
     background-position: center center;
 }
 
