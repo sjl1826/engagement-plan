@@ -407,13 +407,50 @@ section .header {
 }
 
 .hero {
-    min-height: 25px;
-    background: #00b8c1;
+    min-height: 500px;
+    background-color: cornflowerblue;
+    /* background: url("../img/hero-min.jpg") center center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative
+    position: relative;
+    overflow: hidden;
+}
+
+.left-image,
+.right-image {
+    position: absolute;
+        width: 20%;
+        /* Adjust the width as needed */
+        height: 40%;
+        /* Adjust the height as needed */
+        background-size: cover;
+}
+
+.left-image {
+    left: 2%;
+        top: 40%;
+    background-image: url("../img/left-image.jpg");
+    transform: rotate(-15deg);
+    background-position: center center;
+}
+
+.right-image {
+    right: 2%;
+        bottom: 30%;
+    background-image: url("../img/right-image.jpg");
+    transform: rotate(15deg);
+    background-position: center center;
+}
+
+/* Adjust the z-index to control the stacking order of the images */
+.left-image {
+    z-index: 1;
+}
+
+.right-image {
+    z-index: 2;
 }
 
 .hero .down-arrow a {
