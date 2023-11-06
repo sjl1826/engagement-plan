@@ -17,6 +17,26 @@
     }
 }
 
+/* CSS for mobile devices (screens narrower than 768px) */
+@media (max-width: 768px) {
+
+    .left-image,
+    .right-image {
+        display: block;
+        /* Show the images on mobile */
+    }
+}
+
+/* CSS for desktop devices (screens wider than 768px) */
+@media (min-width: 769px) {
+
+    .left-image,
+    .right-image {
+        display: none;
+        /* Hide the images on desktop */
+    }
+}
+
 /* Responsive nav kicks in */
 @media screen and (max-width: 991px) {
     header {

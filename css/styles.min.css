@@ -416,16 +416,21 @@ section .header {
     background-size: cover;
     position: relative;
     overflow: hidden;
+    z-index: 2;
+}
+.hero-content {
+    z-index: 2;
 }
 
 .left-image,
 .right-image {
     position: absolute;
-        width: 30%;
+        width: 40%;
         /* Adjust the width as needed */
-        height: 40%;
+        height: 60%;
         /* Adjust the height as needed */
         background-size: cover;
+        z-index: 1;
 }
 
 .left-image {
@@ -450,7 +455,7 @@ section .header {
 }
 
 .right-image {
-    z-index: 2;
+    z-index: 1;
 }
 
 .hero .down-arrow a {
@@ -470,12 +475,14 @@ section .header {
 }
 
 .hero .hero-content {
-    padding-top: 15%
+    padding-top: 15%;
+    z-index: 2;
 }
 
 .hero .hero-content img {
     width: 55%;
-    margin-bottom: 2%
+    margin-bottom: 2%;
+    z-index: 2;
 }
 
 .navigation {
