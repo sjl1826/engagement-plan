@@ -469,12 +469,12 @@ section .header {
 }
 
 .hero .hero-content {
-    padding-top: 15%;
+    padding-top: 20%;
     z-index: 2;
 }
 
 .hero .hero-content img {
-    width: 55%;
+    width: 75%;
     margin-bottom: 2%;
     z-index: 2;
 }
