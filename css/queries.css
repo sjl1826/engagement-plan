@@ -20,6 +20,22 @@
 /* CSS for mobile devices (screens narrower than 768px) */
 @media (max-width: 768px) {
 
+    .image-container {
+            display: flex;
+            /* Display left and right images next to each other */
+            justify-content: space-between;
+            /* Add spacing between the images */
+            margin-top: 10px;
+            /* Add some top margin for spacing from the logo */
+        }
+    
+        .left-image,
+        .right-image {
+            width: 45%;
+            /* Adjust the width as needed */
+            height: auto;
+        }
+
     .left-image,
     .right-image {
         display: block;
@@ -35,6 +51,10 @@
         display: none;
         /* Hide the images on desktop */
     }
+        .image-container {
+            display: none;
+            /* Hide the images on desktop */
+        }
 }
 
 /* Responsive nav kicks in */
