@@ -259,11 +259,11 @@ Hero
   background-size: cover;
   position: relative;
 
-  /*.rsvp-btn {
+  .rsvp-btn {
     position: absolute;
     bottom: 100px;
     left: 50%;
-  }*/
+  }
   .down-arrow a {
     color: $txt-light;
   }
@@ -278,11 +278,11 @@ Hero
     margin-bottom: 80px;
   }
   .hero-content {
-    padding-top: 40%;
+    padding-top: 15%;
   }
   .hero-content img {
-    width: 55%;
-    margin-bottom: 12%;
+    width: 65%;
+    margin-bottom: 5%;
   }
 }
 .navigation {

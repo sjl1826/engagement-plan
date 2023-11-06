@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1024px) {
     .hero .hero-content {
-        padding-top: 50%;
+        padding-top: 15%;
     }
 }
 
@@ -225,7 +225,7 @@
     .events .rightcol {
         padding: 0 20px;
     }
-    
+
     #eng-pics .img-wrap {
         border-radius: 0;
     }
@@ -233,14 +233,14 @@
     #map-content-wrapper {
         margin-bottom: 40px;
     }
-    
+
     #map-content {
         margin-top: 0;
         padding: 35px;
     }
 
     .rsvp {
-        padding-top: 40px;
+        padding-top: 20px;
     }
 
     footer .social-share {
@@ -254,7 +254,7 @@
 
 @media screen and (max-width: 640px) {
     .hero .hero-content {
-        padding-top: 100%;
+        padding-top: 15%;
     }
 
     #eng-pics .img-wrap i {
@@ -263,12 +263,13 @@
         width: 25px;
         height: 25px;
         top: 10px;
-        right: 10px; }
+        right: 10px;
+    }
 
     #map-content-wrapper {
         margin-bottom: 0;
     }
-    
+
     footer ul.footer-group {
         border-top: none;
     }
@@ -293,9 +294,9 @@
 
 @media screen and (max-width: 480px) {
     .hero .hero-content {
-        padding-top: 110%;
+        padding-top: 25%;
     }
-    
+
     .hero .hero-content img {
         width: 65%;
     }
@@ -361,6 +362,6 @@
     }
 
     .rsvp {
-        padding-top: 20px;
+        padding-top: 10px;
     }
 }
